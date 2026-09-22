@@ -1,5 +1,5 @@
 const CONFIG = Object.freeze({
-  endpoint: '__APPS_SCRIPT_WEB_APP_URL__',
+  endpoint: 'https://script.google.com/macros/s/AKfycbxP2r-avMv2qqE0xXs-5X0h6iRnOmojk9PjyAqcJWk_Dv9EkmMGhHOssfn_hgwrV2V2/exec',
   timeoutMs: 12000
 });
 
