@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Đang kết nối Zalo...</title>
+  <link rel="stylesheet" href="/zalo-tivi-new/style.css">
+</head>
+<body>
+  <main>
+    <div class="spinner" id="spinner"></div>
+    <h1 id="title">Đang kết nối Zalo...</h1>
+    <p id="message">Vui lòng chờ trong giây lát.</p>
+    <p id="manual" hidden>Nếu không tự chuyển, <a id="go" href="#">bấm vào đây</a>.</p>
+  </main>
+  <script>
+    document.documentElement.dataset.station = location.pathname.replace(/^\/zalo-tivi-new\/?/, '').split('/')[0];
+  </script>
+  <script src="/zalo-tivi-new/app.js"></script>
+</body>
+</html>
