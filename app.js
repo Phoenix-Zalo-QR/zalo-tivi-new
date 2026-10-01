@@ -13,6 +13,10 @@ const STATIONS = Object.freeze({
   'dong-thap-2': 'ĐỒNG THÁP 2',
   'sctv-14': 'SCTV 14',
   'sctv-4': 'SCTV 4',
+  'sctv-2': 'SCTV 2',
+  'sctv-7': 'SCTV 7',
+  'sctv-9': 'SCTV 9',
+  'sctvpth': 'SCTVPTH',
   'ca-mau': 'CÀ MAU',
   'can-tho': 'CẦN THƠ',
   'youtv': 'YOUTV'
